@@ -1,0 +1,14 @@
+﻿<h2 id="title"></h2>
+<div class="row">
+    <div class="col-md-8">
+        <section id="formSection">
+            @Html.Action("_LoginForm", "Account");
+        </section>
+    </div>
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+    
+    <script type="text/javascript" src="/Scripts/Custom/accountManagement.js"></script>
+}
